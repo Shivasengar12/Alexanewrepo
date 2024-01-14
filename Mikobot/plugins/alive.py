@@ -31,10 +31,10 @@ async def alive(_, message: Message):
         [f"➲ **{key}:** `{value}`" for key, value in library_versions.items()]
     )
 
-    caption = f"""**HEY, I AM {BOT_NAME}**
+    caption = f"""**HEY,ᴅᴜᴅᴇ ɪ ᴀᴍ sᴛɪʟʟ ᴀʟɪᴠᴇ..... ʏᴇᴀʜ.. ɪᴛs ᴍᴇ />3 {BOT_NAME}**
 
 ━━━━━━ 🌟✿🌟 ━━━━━━
-✪ **CREATOR:** [🄺🄰🅁🄼🄰](https://t.me/Alexa_X_Support)
+✪ **CREATOR:** [💫sᴛʀᴀɴɢᴇʀ ᴘᴀᴘᴀ ⚡](https://t.me/Alexa_X_Support)
 
 {library_versions_text}
 
