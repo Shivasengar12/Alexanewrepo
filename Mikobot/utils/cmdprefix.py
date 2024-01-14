@@ -11,4 +11,4 @@ if ALLOW_EXCL:
         "+",
     )
 else:
-    CMD_STARTERS = ("/",)
+    CMD_STARTERS = ("/,!,alexa",)
