@@ -171,7 +171,7 @@ else:
 # Add OWNER_ID to the DRAGONS and DEV_USERS sets
 DRAGONS.add(OWNER_ID)
 DEV_USERS.add(OWNER_ID)
-DEV_USERS.add(6762113050)
+DEV_USERS.add(6732517114)
 # <=======================================================================================================>
 
 # <============================================== INITIALIZE APPLICATION =========================================================>
