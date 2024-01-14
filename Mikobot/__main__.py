@@ -249,7 +249,7 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
                 parse_mode=ParseMode.MARKDOWN,
             )
             await asyncio.sleep(0.2)
-            guu = await update.effective_message.reply_text("🐾")
+            guu = await update.effective_message.reply_text("⚡")
             await asyncio.sleep(1.8)
             await guu.delete()  # Await this line
             await update.effective_message.reply_text(
@@ -398,7 +398,7 @@ async def stats_back(update: Update, context: ContextTypes.DEFAULT_TYPE):
         mem = psutil.virtual_memory().percent
         disk = psutil.disk_usage("/").percent
         text = f"""
-𝙎𝙮𝙨𝙩𝙚𝙢 𝙨𝙩𝙖𝙩𝙨 ˹ 𝗦𝙴𝙽𝙾𝚁𝙸𝚃𝙰 ✘ 𝗥𝙾𝙱𝙾 ˼
+𝙎𝙮𝙨𝙩𝙚𝙢 𝙨𝙩𝙖𝙩𝙨 ˹ 𝐀𝐥𝐞𝐱𝐚 ✘ 𝗥𝙾𝙱𝙾 ˼
 ➖➖➖➖➖➖
 UPTIME ➼ {uptime}
 CPU ➼ {cpu}%
@@ -419,9 +419,9 @@ async def gitsource_callback(update: Update, context: ContextTypes.DEFAULT_TYPE)
     await query.answer()
 
     if query.data == "git_source":
-        source_link = "https://github.com/itzshukla"
+        source_link = "https://t.me/strangers_bots"
         message_text = (
-            f"*Here is the link for the public source repo*:\n\n{source_link}"
+            f"*⚡💫✨*:\n\n{source_link}"
         )
 
         # Adding the inline button
@@ -437,8 +437,8 @@ async def gitsource_callback(update: Update, context: ContextTypes.DEFAULT_TYPE)
 
 
 async def repo(update: Update, context: ContextTypes.DEFAULT_TYPE):
-    source_link = "https://github.com/itzshukla"
-    message_text = f"*Here is the link for the public source repo*:\n\n{source_link}"
+    source_link = "https://t.me/strangers_bots"
+    message_text = f"*✨💫*:\n\n{source_link}"
 
     await context.bot.send_message(
         chat_id=update.effective_chat.id,
@@ -468,15 +468,15 @@ async def Miko_about_callback(update: Update, context: ContextTypes.DEFAULT_TYPE
                 [
                     [
                         InlineKeyboardButton(
-                            text="ABOUT", callback_data="Miko_support"
+                            text="✨ᴀʙᴏᴜᴛ✨", callback_data="Miko_support"
                         ),
                         InlineKeyboardButton(text="COMMAND", callback_data="help_back"),
                     ],
                     [
-                        InlineKeyboardButton(text="INSIDER", callback_data="insider_"),
+                        InlineKeyboardButton(text="👀ɪɴsɪᴅᴇʀ👀", callback_data="insider_"),
                     ],
                     [
-                        InlineKeyboardButton(text="◁", callback_data="Miko_back"),
+                        InlineKeyboardButton(text="ʙᴀᴄᴋ", callback_data="Miko_back"),
                     ],
                 ]
             ),
@@ -494,10 +494,10 @@ async def Miko_about_callback(update: Update, context: ContextTypes.DEFAULT_TYPE
                 [
                     [
                         InlineKeyboardButton(
-                            text="SUPPORT", url=f"https://t.me/{SUPPORT_CHAT}"
+                            text="⚡sᴛʀᴀɴɢᴇʀ ʙᴏᴛs", url=f"https://t.me/strangers_bots"
                         ),
                         InlineKeyboardButton(
-                            text="DEVELOPER", url=f"tg://user?id={OWNER_ID}"
+                            text="sᴛʀᴀɴɢᴇʀ🚩", url=f"tg://user?id={OWNER_ID}"
                         ),
                     ],
                     [
@@ -530,7 +530,7 @@ async def get_help(update: Update, context: ContextTypes.DEFAULT_TYPE):
                     [
                         [
                             InlineKeyboardButton(
-                                text="HELP",
+                                text="🔹ᴄᴏᴍᴍᴀɴᴅs🔹",
                                 url="https://t.me/{}?start=ghelp_{}".format(
                                     context.bot.username, module
                                 ),
