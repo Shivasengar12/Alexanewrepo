@@ -93,10 +93,7 @@ ALIVE_BTN = [
         ib(text="sᴜᴘᴘᴏʀᴛ", url="https://t.me/Alexa_X_Support"),
     ],
     [
-        ib(
-            text="⇦ ADD ME ⇨",
-            url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
-        ),
+        ib(text="⇦ ADD ME ⇨", url=f"https://t.me/{BOT_USERNAME}?startgroup=true"),
     ],
 ]
 
